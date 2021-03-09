@@ -18,6 +18,8 @@
 		95379F2625F8073500DB609F /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F2525F8073500DB609F /* WeatherManager.swift */; };
 		95379F2925F8088600DB609F /* WeatherLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F2825F8088600DB609F /* WeatherLocationManager.swift */; };
 		95379F2C25F80A8B00DB609F /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F2B25F80A8B00DB609F /* CityModel.swift */; };
+		95379F2F25F814B800DB609F /* OutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F2E25F814B800DB609F /* OutlineView.swift */; };
+		95379F3225F815E900DB609F /* WatchWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F3125F815E900DB609F /* WatchWeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		95379F2525F8073500DB609F /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		95379F2825F8088600DB609F /* WeatherLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocationManager.swift; sourceTree = "<group>"; };
 		95379F2B25F80A8B00DB609F /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		95379F2E25F814B800DB609F /* OutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineView.swift; sourceTree = "<group>"; };
+		95379F3125F815E900DB609F /* WatchWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		95379F1525F800ED00DB609F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				95379F2E25F814B800DB609F /* OutlineView.swift */,
+				95379F3125F815E900DB609F /* WatchWeatherView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,9 +189,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95379F3225F815E900DB609F /* WatchWeatherView.swift in Sources */,
 				95379F1A25F8025F00DB609F /* NetworkManager.swift in Sources */,
 				95379F0825F8008100DB609F /* ContentView.swift in Sources */,
 				95379F0625F8008100DB609F /* WatchOSWeartherAppWithCoreLocationsApp.swift in Sources */,
+				95379F2F25F814B800DB609F /* OutlineView.swift in Sources */,
 				95379F2925F8088600DB609F /* WeatherLocationManager.swift in Sources */,
 				95379F2625F8073500DB609F /* WeatherManager.swift in Sources */,
 				95379F1D25F8056300DB609F /* WeatherResponse.swift in Sources */,
