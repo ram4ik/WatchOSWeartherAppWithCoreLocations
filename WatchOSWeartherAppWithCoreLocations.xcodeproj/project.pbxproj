@@ -11,6 +11,7 @@
 		95379F0825F8008100DB609F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F0725F8008100DB609F /* ContentView.swift */; };
 		95379F0A25F8008200DB609F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95379F0925F8008200DB609F /* Assets.xcassets */; };
 		95379F0D25F8008200DB609F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95379F0C25F8008200DB609F /* Preview Assets.xcassets */; };
+		95379F1A25F8025F00DB609F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F1925F8025F00DB609F /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		95379F0925F8008200DB609F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95379F0C25F8008200DB609F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95379F0E25F8008200DB609F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95379F1925F8025F00DB609F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		95379F1725F8010C00DB609F /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				95379F1925F8025F00DB609F /* NetworkManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95379F1A25F8025F00DB609F /* NetworkManager.swift in Sources */,
 				95379F0825F8008100DB609F /* ContentView.swift in Sources */,
 				95379F0625F8008100DB609F /* WatchOSWeartherAppWithCoreLocationsApp.swift in Sources */,
 			);
