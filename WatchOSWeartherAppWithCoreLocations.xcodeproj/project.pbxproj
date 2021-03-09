@@ -16,6 +16,8 @@
 		95379F2025F8059000DB609F /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F1F25F8059000DB609F /* WeatherModel.swift */; };
 		95379F2325F806F600DB609F /* WeatherCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F2225F806F600DB609F /* WeatherCoordinates.swift */; };
 		95379F2625F8073500DB609F /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F2525F8073500DB609F /* WeatherManager.swift */; };
+		95379F2925F8088600DB609F /* WeatherLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F2825F8088600DB609F /* WeatherLocationManager.swift */; };
+		95379F2C25F80A8B00DB609F /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F2B25F80A8B00DB609F /* CityModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		95379F1F25F8059000DB609F /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		95379F2225F806F600DB609F /* WeatherCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCoordinates.swift; sourceTree = "<group>"; };
 		95379F2525F8073500DB609F /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		95379F2825F8088600DB609F /* WeatherLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocationManager.swift; sourceTree = "<group>"; };
+		95379F2B25F80A8B00DB609F /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 				95379F1C25F8056300DB609F /* WeatherResponse.swift */,
 				95379F1F25F8059000DB609F /* WeatherModel.swift */,
 				95379F2225F806F600DB609F /* WeatherCoordinates.swift */,
+				95379F2B25F80A8B00DB609F /* CityModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 			children = (
 				95379F1925F8025F00DB609F /* NetworkManager.swift */,
 				95379F2525F8073500DB609F /* WeatherManager.swift */,
+				95379F2825F8088600DB609F /* WeatherLocationManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -180,10 +186,12 @@
 				95379F1A25F8025F00DB609F /* NetworkManager.swift in Sources */,
 				95379F0825F8008100DB609F /* ContentView.swift in Sources */,
 				95379F0625F8008100DB609F /* WatchOSWeartherAppWithCoreLocationsApp.swift in Sources */,
+				95379F2925F8088600DB609F /* WeatherLocationManager.swift in Sources */,
 				95379F2625F8073500DB609F /* WeatherManager.swift in Sources */,
 				95379F1D25F8056300DB609F /* WeatherResponse.swift in Sources */,
 				95379F2325F806F600DB609F /* WeatherCoordinates.swift in Sources */,
 				95379F2025F8059000DB609F /* WeatherModel.swift in Sources */,
+				95379F2C25F80A8B00DB609F /* CityModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
