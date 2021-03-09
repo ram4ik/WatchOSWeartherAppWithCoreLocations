@@ -12,6 +12,9 @@
 		95379F0A25F8008200DB609F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95379F0925F8008200DB609F /* Assets.xcassets */; };
 		95379F0D25F8008200DB609F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95379F0C25F8008200DB609F /* Preview Assets.xcassets */; };
 		95379F1A25F8025F00DB609F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F1925F8025F00DB609F /* NetworkManager.swift */; };
+		95379F1D25F8056300DB609F /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F1C25F8056300DB609F /* WeatherResponse.swift */; };
+		95379F2025F8059000DB609F /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F1F25F8059000DB609F /* WeatherModel.swift */; };
+		95379F2325F806F600DB609F /* WeatherCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379F2225F806F600DB609F /* WeatherCoordinates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		95379F0C25F8008200DB609F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95379F0E25F8008200DB609F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95379F1925F8025F00DB609F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		95379F1C25F8056300DB609F /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		95379F1F25F8059000DB609F /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		95379F2225F806F600DB609F /* WeatherCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCoordinates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,9 @@
 		95379F1625F8010000DB609F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				95379F1C25F8056300DB609F /* WeatherResponse.swift */,
+				95379F1F25F8059000DB609F /* WeatherModel.swift */,
+				95379F2225F806F600DB609F /* WeatherCoordinates.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -168,6 +177,9 @@
 				95379F1A25F8025F00DB609F /* NetworkManager.swift in Sources */,
 				95379F0825F8008100DB609F /* ContentView.swift in Sources */,
 				95379F0625F8008100DB609F /* WatchOSWeartherAppWithCoreLocationsApp.swift in Sources */,
+				95379F1D25F8056300DB609F /* WeatherResponse.swift in Sources */,
+				95379F2325F806F600DB609F /* WeatherCoordinates.swift in Sources */,
+				95379F2025F8059000DB609F /* WeatherModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
