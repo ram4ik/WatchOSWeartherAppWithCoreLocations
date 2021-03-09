@@ -52,6 +52,9 @@
 		95379F0425F8008100DB609F /* WatchOSWeartherAppWithCoreLocations */ = {
 			isa = PBXGroup;
 			children = (
+				95379F1725F8010C00DB609F /* Managers */,
+				95379F1625F8010000DB609F /* Models */,
+				95379F1525F800ED00DB609F /* Views */,
 				95379F0525F8008100DB609F /* WatchOSWeartherAppWithCoreLocationsApp.swift */,
 				95379F0725F8008100DB609F /* ContentView.swift */,
 				95379F0925F8008200DB609F /* Assets.xcassets */,
@@ -67,6 +70,27 @@
 				95379F0C25F8008200DB609F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95379F1525F800ED00DB609F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95379F1625F8010000DB609F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95379F1725F8010C00DB609F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
